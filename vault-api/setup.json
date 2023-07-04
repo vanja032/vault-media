@@ -1,0 +1,9 @@
+{
+    "path": "temp/",
+    "host": "0.0.0.0",
+    "port": "5000",
+    "certificate": {
+        "fullchain": "/etc/letsencrypt/live/master4.blockchain-servers.world/fullchain.pem",
+        "privkey": "/etc/letsencrypt/live/master4.blockchain-servers.world/privkey.pem"
+    }
+}
