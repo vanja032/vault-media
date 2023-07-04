@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/vault.media-react/node_modules
+/vault.media-react/.pnp
+/vault.media-react/.pnp.js
+
+# testing
+/vault.media-react/coverage
+
+# next.js
+/vault.media-react/.next/
+/vault.media-react/out/
+
+# production
+/vault.media-react/build
+
+# misc
+/vault.media-react/.DS_Store
+/vault.media-react/*.pem
+
+# debug
+/vault.media-react/npm-debug.log*
+/vault.media-react/yarn-debug.log*
+/vault.media-react/yarn-error.log*
+
+# local env files
+/vault.media-react/.env*.local
+
+# vercel
+/vault.media-react/.vercel
+
+# typescript
+/vault.media-react/*.tsbuildinfo
+/vault.media-react/next-env.d.ts

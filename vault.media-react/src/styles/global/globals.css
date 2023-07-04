@@ -1,0 +1,159 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #363636;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#__next{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+/*NAVBAR*/
+.navbar-logo{
+    width: 50px;
+}
+.navbar-text{
+    color: white;
+    font-weight: 600;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-link:hover{
+    color: rgb(226, 226, 226);
+    opacity: 0.8;
+}
+.nav-link-active{
+    font-weight: 600;
+    color: #ffae00;
+}
+
+/*FOOTER*/
+footer{
+    flex-shrink: 0;
+}
+.footer{
+    background-color: #242424;
+}
+.footer-text{
+    color: white;
+    font-weight: 600;
+}
+.footer-highlight{
+    color: #ffae00;
+    font-weight: 600;
+}
+.footer-logo{
+    width: 40px;
+}
+.footer-icons{
+    color: white;
+    width: 1.5em;
+    height: 1.5em;
+    text-decoration: none;
+}
+.footer-icons:hover{
+    color: #ffae00;
+}
+
+/*FETCH PANEL*/
+.fetch-input{
+    background-color: #535353;
+    border-radius: 0.5em;
+    color:#ffae00;
+    border: 0.15em solid #d3d3d3;
+    min-height: 5em !important;
+}
+.fetch-input::placeholder{
+    color:#f3f3f3;
+}
+.fetch-input:focus{
+    background-color:#747474;
+    box-shadow: 0 0 5px #b6b6b6;
+    border: 0.15em solid #ffffff;
+}
+.fetch-button{
+    background-color: #ffae00;
+    border-radius: 0.5em;
+    color:#3a3a3a;
+    border: 0.15em solid #ffae00;
+    height: 100%;
+    min-height: 3.5em;
+    width: 100%;
+    font-weight: 600;
+}
+.fetch-button:hover{
+    background-color: #424242;
+    color:#ffae00;
+}
+.error-message{
+    color: #ff2727;
+}
+
+/*TABLE OF CONTENT*/
+.tr{
+    border-bottom: 0.15em solid white;
+}
+.trcell{
+    border-bottom: 0.12em solid white;
+}
+.thumbnail{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1em;
+    width: 5vw;
+    height: 5vw;
+}
+.table-text{
+    color: white;
+    font-weight: 500;
+}
+.table-loader{
+    color: #ffae00;
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+}
+.loader{
+    animation: 1s linear loading infinite;
+}
+.txt-warning{
+    color: #ffae00;
+}
+.txt-success{
+    color: #d0ff00;
+}
+.download-button{
+    background-color: #ffae00;
+    border-radius: 0.5em;
+    color:#3a3a3a;
+    border: 0.15em solid #ffae00;
+    font-size: 0.5em;
+    font-weight: 500;
+}
+.download-button:hover{
+    background-color: #424242;
+    color:#ffae00;
+}
+
+@keyframes loading{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
