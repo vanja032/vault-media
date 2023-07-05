@@ -4,8 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <script type="text/javascript" src="/assets/js/jquery.js" />
-        <script type="text/javascript" src="/assets/js/bootstrap.js" />
+        <script type="text/javascript" src="/assets/js/jquery.js" async/>
+        <script type="text/javascript" src="/assets/js/bootstrap.js" async/>
       </Head>
       <body>
         <Main />
